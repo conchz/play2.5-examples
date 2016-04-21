@@ -45,8 +45,8 @@ libraryDependencies ++= {
     "org.webjars" % "underscorejs" % "1.8.3",
     "org.webjars" % "jquery" % "1.12.3",
     "org.webjars" % "bootstrap" % "3.3.6" exclude("org.webjars", "jquery"),
-    "org.webjars" % "angularjs" % "1.5.0" exclude("org.webjars", "jquery"),
-    "org.webjars.npm" % "angular-ui-grid" % "3.1.1"
+    "org.webjars" % "angularjs" % "1.5.5" exclude("org.webjars", "jquery"),
+    "org.webjars.bower" % "angular-ui-grid" % "3.1.1"
   )
 }
 
