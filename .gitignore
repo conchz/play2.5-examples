@@ -1,9 +1,22 @@
+# Created by .ignore support plugin (hsz.mobi)
+### Java template
 *.class
 *.log
+
+# Package Files #
+#*.jar
+*.war
+*.ear
+
+hs_err_pid*
+
+### Scala template
 
 # sbt specific
 .cache
 .history
+.sbtserver
+.sbtserver.lock
 .lib/
 dist/*
 target/
@@ -15,3 +28,8 @@ project/plugins/project/
 # Scala-IDE specific
 .scala_dependencies
 .worksheet
+
+### IntelliJ IDEA
+*.iml
+.idea/
+.idea_modules/

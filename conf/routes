@@ -1,0 +1,29 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# Home page
+GET           /                    controllers.ApplicationController.index()
+
+# JavaScript routes object
+GET           /jsroutes.js         controllers.ApplicationController.jsRoutes()
+
+# Routes used by Angular
+# ~~~~
+
+# Authentication
+POST          /login               controllers.ApplicationController.login()
+POST          /logout              controllers.ApplicationController.logout()
+
+# User
+GET           /user/:id            controllers.UserController.user(id: Long)
+POST          /user                controllers.UserController.createUser()
+PUT           /user/:id            controllers.UserController.updateUser(id: Long)
+DELETE        /user/:id            controllers.UserController.deleteUser(id: Long)
+GET           /authuser            controllers.UserController.authUser()
+
+# Static
+# ~~~~
+
+# Map static resources from the /public folder to the /assets URL path
+GET           /assets/*file        controllers.Assets.versioned(path="/public", file: Asset)
