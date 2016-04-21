@@ -29,7 +29,7 @@
             'angular': ['../lib/angularjs/angular'],
             'angular-route': ['../lib/angularjs/angular-route'],
             'angular-cookies': ['../lib/angularjs/angular-cookies'],
-            'angular-ui-grid': ['../lib/angular-ui-grid/ui-grid'],
+            'angular-ui-grid': ['../lib/ui-grid/ui-grid'],
             'jsRoutes': ['/jsroutes']
         }
     });
