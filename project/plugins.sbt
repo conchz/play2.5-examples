@@ -1,6 +1,7 @@
 addSbtPlugin("com.typesafe.play" % "sbt-plugin" % "2.5.2")
 addSbtPlugin("com.github.mpeltonen" % "sbt-idea" % "1.6.0")
 addSbtPlugin("com.typesafe.sbt" % "sbt-native-packager" % "1.1.0-RC3")
+addSbtPlugin("org.scalastyle" %% "scalastyle-sbt-plugin" % "0.8.0")
 addSbtPlugin("org.scalariform" % "sbt-scalariform" % "1.6.0")
 addSbtPlugin("com.tuplejump" % "sbt-yeoman" % "0.9.0")
 addSbtPlugin("com.typesafe.sbt" % "sbt-rjs" % "1.0.7")
